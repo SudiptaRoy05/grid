@@ -23,3 +23,24 @@ img{
 .square-collage img{
     width: 100%;
 }
+
+/* responsive media queary  */
+
+@media screen and (max-width: 576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .square-collage{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* medium devices */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
